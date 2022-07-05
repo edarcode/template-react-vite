@@ -1,7 +1,7 @@
-import "./App.css";
+import css from "./style.module.css";
 
 function App() {
-	return <div className="App">edarcode</div>;
+	return <div className={css.App}>Hola mundo {":)"} </div>;
 }
 
 export default App;
