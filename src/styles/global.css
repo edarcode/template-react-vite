@@ -3,9 +3,3 @@ body {
 	color: var(--white);
 	font-family: sans-serif;
 }
-
-@media screen and (min-width: 1280px) {
-	body {
-		font-size: 2rem;
-	}
-}
