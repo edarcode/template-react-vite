@@ -8,15 +8,17 @@
 	margin: 0;
 }
 
-html,
-body {
-	height: 100%;
+html {
+	font-size: 62.5%;
 }
-
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	font-size: 1.6rem;
+}
+html,
+body {
+	height: 100%;
 }
 
 img,
@@ -48,10 +50,6 @@ h6 {
 #root,
 #__next {
 	isolation: isolate;
-}
-
-html {
-	font-size: 62.5%;
 }
 
 a {
